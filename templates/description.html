@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="{% static 'css/a2.css' %}">
+</head>
+<body>
+	<div class="container-fluid ">
+		<div class="row">
+			<div class="col-11 bg-orange"><h1>JavaJam Coffee House</h1></div>
+		</div>
+		<div class="row">
+			<div class="col-2 bg-pink">
+				<div><a href="">HOME</a></div>
+				<div><a href="">MENU</a></div>
+				<div><a href="">MUSIC</a></div>
+				<div><a href="">JOBS</a></div>
+			</div>
+			<div class="col-9 bg-rose">
+				<h2>Jobs at Java Jam</h2>
+				<h4>Want to work at Java Jam?Fill out this form below to sent your application.Requried fields are<br>marked with an asterisk*</h4>
+				<form>
+					<table cellpadding="10px">
+						<tr>
+							<tr>
+								<td><label>*Name:</label></td>
+								<td><input type="text"></td>
+							</tr>
+							<tr>
+								<td><label>*E-Mail:</label></td>
+								<td><input type="password"></td>
+							</tr>
+							<tr>
+								<td><label>*Start Date:</label></td>
+								<td><input type="text"></td>
+							</tr>
+							<tr>
+								<td><label>*Experience:</label></td>
+								<td><textarea cols="22" rows="2"></textarea></td>
+							</tr>
+						</tr>
+					</table>
+				</form>
+				<button>Apply Here</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-11 bg-brown"><h5>Copyright @ 2014 JavaJam Coffee House<br>WWW.Javajam Coffee House.com</h5></div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body{
+    background-color:lightyellow;
+    width:200vh;
+    margin:50px 70px;
+}
+.bg-orange
+{
+    background-color:burlywood;
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right:7px solid brown;
+}
+h1
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:500%;
+}
+.bg-pink
+{ 
+    background-color:lightpink;
+    height:420px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size:170%
+}
+.bg-rose
+{
+    background-color: antiquewhite;
+    height: 420px;
+    border-right:7px solid brown;
+}
+.bg-litepink
+{
+    background-color: bisque;
+    height:100px;
+}
+h2
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:200%;
+    color: rgb(3, 3, 115);
+    margin-left:80px;
+    margin-top:20px;
+}
+.bg-brown
+{
+    background-color:rgb(244, 168, 193);
+    height:100px;
+    color: maroon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:7px solid brown;
+    border-right:7px solid brown;
+
+
+}
+button
+{
+    background-color: blue;
+    color:white;
+    border-radius:8px;
+}
+h4
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(32, 1, 1);
+    margin-top:20px;
+    margin-left:15px;
+}
+a
+{
+    color:brown;
+}
